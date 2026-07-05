@@ -51,3 +51,94 @@ dtype: int64
 2026-07-05 16:43:00 | INFO | M01 | Problem type:      classification (we want to predict a category)
 2026-07-05 16:43:00 | INFO | M01 | Candidate features: ['island', 'bill_length_mm', 'bill_depth_mm', 'flipper_length_mm', 'body_mass_g', 'sex']
 2026-07-05 16:43:00 | INFO | M01 | ========================
+2026-07-05 17:16:53 | INFO | M01 | === RUN START ===
+2026-07-05 17:16:53 | INFO | M01 | project=M01
+2026-07-05 17:16:53 | INFO | M01 | repo_dir=ml-01-intro
+2026-07-05 17:16:53 | INFO | M01 | python=3.14.6
+2026-07-05 17:16:53 | INFO | M01 | os=Windows 11
+2026-07-05 17:16:53 | INFO | M01 | shell=powershell
+2026-07-05 17:16:53 | INFO | M01 | cwd=notebooks
+2026-07-05 17:16:53 | INFO | M01 | github_actions=False
+2026-07-05 17:16:53 | INFO | M01 | Confirming installation:
+2026-07-05 17:16:53 | INFO | M01 |   python:       3.14.6
+2026-07-05 17:16:53 | INFO | M01 |   pandas:       3.0.3
+2026-07-05 17:16:53 | INFO | M01 |   numpy:        2.5.0
+2026-07-05 17:16:53 | INFO | M01 |   scikit-learn: 1.9.0
+2026-07-05 17:16:53 | INFO | M01 |   seaborn:      0.13.2
+2026-07-05 17:16:53 | INFO | M01 |   matplotlib:   3.11.0
+2026-07-05 17:16:53 | INFO | M01 | Built-in Seaborn datasets: ['anagrams', 'anscombe', 'attention', 'brain_networks', 'car_crashes', 'diamonds', 'dots', 'dowjones', 'exercise', 'flights', 'fmri', 'geyser', 'glue', 'healthexp', 'iris', 'mpg', 'penguins', 'planets', 'seaice', 'taxis', 'tips', 'titanic']
+2026-07-05 17:16:53 | INFO | M01 | Loading dataset: diabetes
+2026-07-05 17:19:40 | INFO | M01 | Loading local dataset: diabetes
+2026-07-05 17:19:40 | INFO | M01 | Loaded: 70692 rows (instances), 22 columns
+2026-07-05 17:19:43 | INFO | M01 | === RUN START ===
+2026-07-05 17:19:43 | INFO | M01 | project=M01
+2026-07-05 17:19:43 | INFO | M01 | repo_dir=ml-01-intro
+2026-07-05 17:19:43 | INFO | M01 | python=3.14.6
+2026-07-05 17:19:43 | INFO | M01 | os=Windows 11
+2026-07-05 17:19:43 | INFO | M01 | shell=powershell
+2026-07-05 17:19:43 | INFO | M01 | cwd=notebooks
+2026-07-05 17:19:43 | INFO | M01 | github_actions=False
+2026-07-05 17:19:43 | INFO | M01 | Confirming installation:
+2026-07-05 17:19:43 | INFO | M01 |   python:       3.14.6
+2026-07-05 17:19:43 | INFO | M01 |   pandas:       3.0.3
+2026-07-05 17:19:43 | INFO | M01 |   numpy:        2.5.0
+2026-07-05 17:19:43 | INFO | M01 |   scikit-learn: 1.9.0
+2026-07-05 17:19:43 | INFO | M01 |   seaborn:      0.13.2
+2026-07-05 17:19:43 | INFO | M01 |   matplotlib:   3.11.0
+2026-07-05 17:19:43 | INFO | M01 | Built-in Seaborn datasets: ['anagrams', 'anscombe', 'attention', 'brain_networks', 'car_crashes', 'diamonds', 'dots', 'dowjones', 'exercise', 'flights', 'fmri', 'geyser', 'glue', 'healthexp', 'iris', 'mpg', 'penguins', 'planets', 'seaice', 'taxis', 'tips', 'titanic']
+2026-07-05 17:19:43 | INFO | M01 | Loading local dataset: diabetes
+2026-07-05 17:19:43 | INFO | M01 | Loaded: 70692 rows (instances), 22 columns
+2026-07-05 17:19:43 | INFO | M01 | Instances (rows): 70692
+2026-07-05 17:19:43 | INFO | M01 | Columns:          22
+2026-07-05 17:19:43 | INFO | M01 | Numeric columns (regression target / numeric feature): ['Diabetes_binary', 'HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke', 'HeartDiseaseorAttack', 'PhysActivity', 'Fruits', 'Veggies', 'HvyAlcoholConsump', 'AnyHealthcare', 'NoDocbcCost', 'GenHlth', 'MentHlth', 'PhysHlth', 'DiffWalk', 'Sex', 'Age', 'Education', 'Income']
+2026-07-05 17:19:43 | INFO | M01 | Categorical columns (classification target / category): []
+2026-07-05 17:19:43 | INFO | M01 | Missing values by column:
+Diabetes_binary         0
+HighBP                  0
+HighChol                0
+CholCheck               0
+BMI                     0
+Smoker                  0
+Stroke                  0
+HeartDiseaseorAttack    0
+PhysActivity            0
+Fruits                  0
+Veggies                 0
+HvyAlcoholConsump       0
+AnyHealthcare           0
+NoDocbcCost             0
+GenHlth                 0
+MentHlth                0
+PhysHlth                0
+DiffWalk                0
+Sex                     0
+Age                     0
+Education               0
+Income                  0
+dtype: int64
+2026-07-05 17:19:43 | INFO | M01 | Missing values across all columns: 0
+2026-07-05 17:19:43 | DEBUG | M01 | First rows:
+2026-07-05 17:19:43 | DEBUG | M01 | 
+   Diabetes_binary  HighBP  HighChol  CholCheck   BMI  Smoker  Stroke  HeartDiseaseorAttack  PhysActivity  Fruits  \
+0              0.0     1.0       0.0        1.0  26.0     0.0     0.0                   0.0           1.0     0.0   
+1              0.0     1.0       1.0        1.0  26.0     1.0     1.0                   0.0           0.0     1.0   
+2              0.0     0.0       0.0        1.0  26.0     0.0     0.0                   0.0           1.0     1.0   
+3              0.0     1.0       1.0        1.0  28.0     1.0     0.0                   0.0           1.0     1.0   
+4              0.0     0.0       0.0        1.0  29.0     1.0     0.0                   0.0           1.0     1.0   
+
+   Veggies  HvyAlcoholConsump  AnyHealthcare  NoDocbcCost  GenHlth  MentHlth  PhysHlth  DiffWalk  Sex   Age  \
+0      1.0                0.0            1.0          0.0      3.0       5.0      30.0       0.0  1.0   4.0   
+1      0.0                0.0            1.0          0.0      3.0       0.0       0.0       0.0  1.0  12.0   
+2      1.0                0.0            1.0          0.0      1.0       0.0      10.0       0.0  1.0  13.0   
+3      1.0                0.0            1.0          0.0      3.0       0.0       3.0       0.0  1.0  11.0   
+4      1.0                0.0            1.0          0.0      2.0       0.0       0.0       0.0  0.0   8.0   
+
+   Education  Income  
+0        6.0     8.0  
+1        6.0     8.0  
+2        6.0     8.0  
+3        6.0     8.0  
+4        5.0     8.0  
+2026-07-05 17:19:43 | WARNING | M01 | CANDIDATE_TARGET 'species' is not a column.
+2026-07-05 17:19:43 | WARNING | M01 | Available columns: ['Diabetes_binary', 'HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke', 'HeartDiseaseorAttack', 'PhysActivity', 'Fruits', 'Veggies', 'HvyAlcoholConsump', 'AnyHealthcare', 'NoDocbcCost', 'GenHlth', 'MentHlth', 'PhysHlth', 'DiffWalk', 'Sex', 'Age', 'Education', 'Income']
+2026-07-05 17:19:43 | INFO | M01 | Chosen target (y): species
