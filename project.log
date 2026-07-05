@@ -156,3 +156,11 @@ dtype: int64
 2026-07-05 17:28:31 | INFO | M01 | Problem type:      classification (we want to predict a category: 0 or 1)
 2026-07-05 17:28:31 | INFO | M01 | Candidate features: ['HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke', 'HeartDiseaseorAttack', 'PhysActivity', 'Fruits', 'Veggies', 'HvyAlcoholConsump', 'AnyHealthcare', 'NoDocbcCost', 'GenHlth', 'MentHlth', 'PhysHlth', 'DiffWalk', 'Sex', 'Age', 'Education', 'Income']
 2026-07-05 17:28:31 | INFO | M01 | ========================
+2026-07-05 17:39:32 | INFO | ML | === RUN START ===
+2026-07-05 17:39:32 | INFO | ML | project=ML
+2026-07-05 17:39:32 | INFO | ML | repo_dir=ml-01-intro
+2026-07-05 17:39:32 | INFO | ML | python=3.14.6
+2026-07-05 17:39:32 | INFO | ML | os=Windows 11
+2026-07-05 17:39:32 | INFO | ML | shell=powershell
+2026-07-05 17:39:32 | INFO | ML | cwd=.
+2026-07-05 17:39:32 | INFO | ML | github_actions=False
