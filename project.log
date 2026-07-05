@@ -142,3 +142,17 @@ dtype: int64
 2026-07-05 17:19:43 | WARNING | M01 | CANDIDATE_TARGET 'species' is not a column.
 2026-07-05 17:19:43 | WARNING | M01 | Available columns: ['Diabetes_binary', 'HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke', 'HeartDiseaseorAttack', 'PhysActivity', 'Fruits', 'Veggies', 'HvyAlcoholConsump', 'AnyHealthcare', 'NoDocbcCost', 'GenHlth', 'MentHlth', 'PhysHlth', 'DiffWalk', 'Sex', 'Age', 'Education', 'Income']
 2026-07-05 17:19:43 | INFO | M01 | Chosen target (y): species
+2026-07-05 17:26:53 | INFO | M01 | Chosen target (y): Diabetes_binary
+2026-07-05 17:26:53 | INFO | M01 | Target is numeric data type? True
+2026-07-05 17:26:53 | INFO | M01 | Target has 2 unique values.
+2026-07-05 17:26:53 | INFO | M01 | Implied problem type: classification (we want to predict a category: 0 or 1)
+2026-07-05 17:26:53 | INFO | M01 | Candidate features (X): ['HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke', 'HeartDiseaseorAttack', 'PhysActivity', 'Fruits', 'Veggies', 'HvyAlcoholConsump', 'AnyHealthcare', 'NoDocbcCost', 'GenHlth', 'MentHlth', 'PhysHlth', 'DiffWalk', 'Sex', 'Age', 'Education', 'Income']
+2026-07-05 17:28:31 | INFO | M01 | ========================
+2026-07-05 17:28:31 | INFO | M01 | SUMMARY OF KEY FACTS
+2026-07-05 17:28:31 | INFO | M01 | ========================
+2026-07-05 17:28:31 | INFO | M01 | Dataset:           diabetes
+2026-07-05 17:28:31 | INFO | M01 | Instances:         70692
+2026-07-05 17:28:31 | INFO | M01 | Candidate target:  Diabetes_binary
+2026-07-05 17:28:31 | INFO | M01 | Problem type:      classification (we want to predict a category: 0 or 1)
+2026-07-05 17:28:31 | INFO | M01 | Candidate features: ['HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke', 'HeartDiseaseorAttack', 'PhysActivity', 'Fruits', 'Veggies', 'HvyAlcoholConsump', 'AnyHealthcare', 'NoDocbcCost', 'GenHlth', 'MentHlth', 'PhysHlth', 'DiffWalk', 'Sex', 'Age', 'Education', 'Income']
+2026-07-05 17:28:31 | INFO | M01 | ========================
