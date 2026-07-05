@@ -1,0 +1,5 @@
+pre-commit
+pandas
+numpy
+sci-kit
+uv
